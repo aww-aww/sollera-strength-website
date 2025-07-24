@@ -1,8 +1,8 @@
 {
   "name": "sollera-strength-website",
-  "description": "Build a personal website, blog, or portfolio with Astro.",
+  "description": "Sollera Strength Studios",
   "cloudflare": {
-    "label": "Astro Framework Starter",
+    "label": "sollera web site",
     "products": [
       "Workers"
     ],
