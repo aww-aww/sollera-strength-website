@@ -2,7 +2,6 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import mainPageImage from '../images/sollera_cs.jpg';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
@@ -14,7 +13,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<body>
 		<Header />
 		<main>
-			<Image src={mainPageImage} alt="Sollera Strength - Coming Soon" style='width: 500; object-fit: contain'/>
+			<Image src="../images/sollera_cs.jpg" alt="Sollera Strength - Coming Soon" style='width: 500; object-fit: contain'/>
 		</main>
 		<Footer />
 	</body>
